@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login SignUp Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="container-box">
+			<form method="post" name="form" id="login_form">
+				<div class="login">
+					<h1>Login Form</h1>
+				</div>
+				<input type="text" name="username" id="username" placeholder="Username">
+				<input type="password" name="password" id="password" placeholder="Password">
+				<button type="button" id="mybtn">Login</button>
+				<p class="message">Already Registered?<a href="#">Sign Up</a></p>
+			</form>
+			<form method="post" name="form" id="register_form">
+				<div class="login">
+					<h1>Sign Up Form</h1>
+				</div>
+				<input type="text" name="email" id="email" placeholder="Email">
+				<input type="text" name="username" id="username" placeholder="Username">
+				<input type="password" name="password" id="password" placeholder="Password">
+				<button type="button" id="createbtn">Create</button>
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script>
+		$('.message a').click(function(){
+			$('form').animate({height:"toggle",opacity:"toggle"}, "slow");
+		});
+		$('#register_form button').click(function(){
+			$('form').animate({height:"toggle",opacity:"toggle"}, "slow");
+		});
+	</script>
+</body>
+</html>

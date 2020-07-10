@@ -1,0 +1,94 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #E019D6;
+	text-align: center;
+	align-items: center;
+}
+div.container{
+	width: 300px;
+	background-color: white;
+	margin: auto;
+	margin-top: 100px;
+}
+.login{
+	width: 100%;
+	background-color: #E474DF;
+	height: 70px;
+}
+h1{
+	padding-top: 20px;
+}
+#login_form input{
+	margin: auto;
+	margin-top: 20px;
+	height: 40px;
+	width: 80%;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 10px;
+	display: block;
+}
+#login_form input:focus{
+	outline: none;
+	border: 3px solid #E474DF;
+}
+#login_form button{
+	margin-top: 20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border-width: 0;
+	border: 2px solid #E474DF;
+}
+#login_form button:focus{
+	outline: none;
+}
+#login_form button:active{
+	font-size: 10px;
+}
+.message{
+	margin-top: 50px;
+	padding-bottom: 20px;
+}
+.message a{
+	text-decoration: none;
+}
+.message a{
+	color: #E474DF;
+}
+#register_form input{
+	margin: auto;
+	margin-top: 20px;
+	height: 40px;
+	width: 80%;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 10px;
+	display: block;
+}
+#register_form input:focus{
+	outline: none;
+	border: 3px solid #E474DF;
+}
+#register_form button{
+	margin-top: 20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border-width: 0;
+	border: 2px solid #E474DF;
+}
+#register_form button:focus{
+	outline: none;
+	
+}
+#register_form button:active{
+	font-size: 10px;
+}
+.container-box #register_form{
+	display: none;
+}
