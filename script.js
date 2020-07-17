@@ -1,6 +1,6 @@
 var attempts = 3;
-var myuser = "kenliau";
-var mypass = "kahsoon";
+var myuser = "ken";
+var mypass = "liau";
 
 document.getElementById("mybtn").addEventListener("click", check);
 
